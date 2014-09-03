@@ -1,6 +1,6 @@
 Name:		hsConfigure
-Version:	0.1.0.1
-Cabal-Version:	>= 1.2
+Version:	0.1.0.2
+Cabal-Version:	>= 1.6
 Build-Type:	Simple
 License:	LGPL
 License-File:	LICENSE
@@ -19,5 +19,5 @@ Extra-Source-Files:
 Extra-Tmp-Files:
 
 Library
-  Build-Depends:	base, unix, process, filepath, directory
+  Build-Depends:	base == 4.*, unix, process, filepath, directory
   Exposed-Modules:	HsConfigure
